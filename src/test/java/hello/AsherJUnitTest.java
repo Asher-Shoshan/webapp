@@ -61,13 +61,13 @@ public class AsherJUnitTest
 			{
 				String inputLine;
 				StringBuilder sb = new StringBuilder();
-				
+
 				while ((inputLine = in.readLine()) != null)
 				{
 					sb.append(inputLine);
 				}
-				
-				assertEquals("No match!","Greetings from Spring Boot! - Feature1",sb.toString());
+
+				assertEquals("No match!","Greetings from Spring Boot! - Feature2",sb.toString());
 			}
 		}
 		catch (MalformedURLException ex)
