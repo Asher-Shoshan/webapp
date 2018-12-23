@@ -55,7 +55,7 @@ public class AsherJUnitTest
 	{
 		try
 		{
-			URL asher = new URL("http://10.106.161.40:31190");
+			URL asher = new URL("http://10.106.161.40:30682");
 			URLConnection yc = asher.openConnection();
 			try (BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream())))
 			{
@@ -67,7 +67,7 @@ public class AsherJUnitTest
 					sb.append(inputLine);
 				}
 				
-				assertEquals("No match!","Greetings from Spring Boot!",sb.toString());
+				assertEquals("No match!","Greetings from Spring Boot! - Feature1",sb.toString());
 			}
 		}
 		catch (MalformedURLException ex)
