@@ -68,6 +68,7 @@ public class AsherJUnitTest
 				}
 
 				assertEquals("No match!","Greetings from Spring Boot! - Feature2",sb.toString());
+				// bla
 			}
 		}
 		catch (MalformedURLException ex)
