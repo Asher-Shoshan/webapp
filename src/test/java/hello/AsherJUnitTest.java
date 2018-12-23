@@ -55,7 +55,7 @@ public class AsherJUnitTest
 	{
 		try
 		{
-			URL asher = new URL("http://10.106.161.40:31613");
+			URL asher = new URL("http://10.106.161.40:31190");
 			URLConnection yc = asher.openConnection();
 			try (BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream())))
 			{
